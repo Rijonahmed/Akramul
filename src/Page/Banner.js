@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaHandSpock } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -9,8 +10,9 @@ const Banner = () => {
 
         </div>
         <div className='justify-items-center'>
-          <h1 className='text-3xl font-bold'> Hi I'm Akramul Hasan</h1>
-          <h2>Wordpress developer</h2>
+          <h1 className='text-4xl font-bold lg:flex'>Hi&nbsp;<span className='text-amber-400 text-5xl'> <FaHandSpock /> </span>&nbsp;I'm Akramul Hasan</h1>
+
+          <h2 className='font-bold'>Wordpress developer</h2>
         </div>
       </section>
 

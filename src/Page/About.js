@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <div className="hero min-h-screen" style={{ backgroundImage: `url("https://wpnewsify.com/wp-content/uploads/2016/10/WordPress-794x398.jpg")` }}>
+      <div className="hero min-h-screen" style={{ backgroundImage: `url("https://www.git-tower.com/blog/media/pages/posts/git-wordpress-1/2d333fe8bf-1664818656/og.png")` }}>
         <div className="hero-overlay bg-opacity-80"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="">

@@ -7,6 +7,7 @@ import Navber from './Page/Navber';
 import NotFound from './Page/NotFound';
 import Project from './Page/Project';
 import Resume from './Page/Resume';
+import Skills from './Page/Skills';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
 
         <Route path='/resume' element={<Resume></Resume>}></Route>
+        <Route path='/skills' element={<Skills></Skills>}></Route>
         <Route path='/contactME' element={<ContactUS></ContactUS>}></Route>
 
 
