@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{html,js}",
     "./node_modules/tw-elements/dist/js/**/*.js",],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "primary": "#950FFC",
+        "secondary": "#E2D7EB"
+      }
+    },
   },
   plugins: [require("daisyui")],
 }

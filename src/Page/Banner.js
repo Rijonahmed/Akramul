@@ -10,6 +10,7 @@ const Banner = () => {
         </div>
         <div className='justify-items-center'>
           <h1 className='text-3xl font-bold'> Hi I'm Akramul Hasan</h1>
+          <h2>Wordpress developer</h2>
         </div>
       </section>
 
